@@ -1,0 +1,46 @@
+body{
+margin: 0;font-family: cursive;
+background-color: rgb(255, 255, 239);
+}
+::-webkit-scrollbar{
+    width:0;
+}
+
+section{
+border: 1px rgb(239, 213, 142) solid;border-radius: 2vmin;
+width: 70%;height: 45vmin;transform: translateY(50%);margin: auto;background-color: rgb(255, 255, 239);
+}
+.inputs{
+margin: 1vmin;
+}
+.firstNumber{
+width: 30vmin;height: 5vmin;text-align: center;
+display: block;margin: auto;margin-bottom: 1vmin;background-color: beige;border: 0.5px rgb(239, 213, 142) solid;border-radius: 1vmin;color: rgb(172, 148, 119);
+}
+
+.SecondNumber{
+text-align: center;
+width: 31vmin;height: 5vmin;display: block;margin: auto;border: 0.5px rgb(239, 213, 142) solid;
+background-color: beige;border-radius: 1vmin;color: rgb(172, 148, 119);cursor: pointer;
+}
+.calculateButton{
+border: red 1px solid;
+position: absolute;left: 50%;background-color: beige;border: 0.5px rgb(239, 213, 142) solid;
+transform: translateX(-50%);width: 20vmin;border-radius: 1vmin;
+color: #ac9477;height: 5vmin;cursor: pointer;
+}
+.resultDiv{
+border: 1px black solid;
+position: absolute;width: 40%;
+height: 6vmin;top: 50%;left: 50%;transform: translateX(-50%);background-color: beige;
+border: 0.5px rgb(239, 213, 142) solid;color: rgb(172, 148, 119);border-radius:1vmin;
+text-align: center;
+}
+.his{
+border: 0.5px rgb(239, 213, 142) solid;height: 15vmin;border-radius: 2vmin;margin-bottom:0.5vmin;
+width: 60%;position: absolute;bottom: 0;transform: translateX(-50%);left: 50%;
+overflow-y: auto;
+}
+.his h3{
+text-align: center;color: #ac9477;
+}
